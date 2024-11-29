@@ -1,0 +1,59 @@
+{
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States",
+      "airports": [
+        { "code": "JFK", "city": "New York" },
+        { "code": "LAX", "city": "Los Angeles" },
+        { "code": "ORD", "city": "Chicago" },
+        { "code": "SFO", "city": "San Francisco" },
+        { "code": "ATL", "city": "Atlanta" }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "airports": [
+        { "code": "DEL", "city": "New Delhi" },
+        { "code": "BOM", "city": "Mumbai" },
+        { "code": "BLR", "city": "Bangalore" },
+        { "code": "MAA", "city": "Chennai" },
+        { "code": "HYD", "city": "Hyderabad" }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "airports": [
+        { "code": "NRT", "city": "Narita (Tokyo)" },
+        { "code": "HND", "city": "Haneda (Tokyo)" },
+        { "code": "KIX", "city": "Osaka" },
+        { "code": "ITM", "city": "Itami (Osaka)" },
+        { "code": "CTS", "city": "Sapporo" }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "airports": [
+        { "code": "LHR", "city": "London" },
+        { "code": "LGW", "city": "London" },
+        { "code": "MAN", "city": "Manchester" },
+        { "code": "EDI", "city": "Edinburgh" },
+        { "code": "BHX", "city": "Birmingham" }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "airports": [
+        { "code": "CDG", "city": "Paris" },
+        { "code": "ORY", "city": "Paris" },
+        { "code": "LYS", "city": "Lyon" },
+        { "code": "NCE", "city": "Nice" },
+        { "code": "MRS", "city": "Marseille" }
+      ]
+    }
+  ]
+}
