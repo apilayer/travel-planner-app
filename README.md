@@ -37,8 +37,8 @@ To set up the Travel Planner App project locally, follow these steps:
 4. Create a `.env.local` file in the root directory and add your API keys:
 
    ```
-   AVIATION_STACK_API_KEY=your_aviation_stack_api_key_here
-   WEATHER_STACK_API_KEY=your_weather_stack_api_key_here
+   VITE_AVIATION_STACK_API_KEY=your_aviation_stack_api_key_here
+   VITE_WEATHER_STACK_API_KEY=your_weather_stack_api_key_here
    ```
 
 5. Run the development server:

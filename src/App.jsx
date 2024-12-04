@@ -66,10 +66,10 @@ const App = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          `https://api.aviationstack.com/v1/flightsFuture?iataCode=${originAirport}&type=arrival&date=${departureDate}&access_key=${AVIATION_STACK_API_KEY}`
+          `https://api.aviationstack.com/v1/flightsFuture?iataCode=${originAirport}&type=arrival&date=${departureDate}&access_key=${import.meta.env.VITE_AVIATION_STACK_API_KEY}`
         );
         const responseData = await fetch(
-          `http://api.weatherstack.com/current?access_key=${WEATHER_STACK_API_KEY}&query=${destinationCity}`
+          `http://api.weatherstack.com/current?access_key=${import.meta.env.VITE_WEATHER_STACK_API_KEY}&query=${destinationCity}`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
